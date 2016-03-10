@@ -1,0 +1,152 @@
+* {
+	box-sizing: border-box;
+} 
+body{
+	background-color: #EEEEEE; 
+
+font-family: Helvetica, Arial, sans-serif;
+margin: 0;
+padding-bottom: 200px;
+}
+nav { background-color: #FFFFFF;
+	border-top-color: #ff4700;
+	border-top-width: 3px;
+	border-top-style: solid;
+
+}
+	
+nav li { list-style: none;
+	display: inline;
+	margin-right: 20px;
+ }
+
+nav li:first-child{
+ 	margin-left: 0;
+
+ }
+nav a { 
+	color: #ff4700; /* orange links */
+	text-decoration: none;
+}
+nav a:hover{
+	text-decoration: underline;
+}
+nav img {
+	vertical-align: middle;
+	  margin-right: 510px;
+
+}
+#buy-now {
+background-color: #ff4700;
+color: #ffffff;
+padding: 4px;
+border-radius: 3px;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff4700+0,d63500+98 */
+background: #ff4700; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff4700 0%, #d63500 98%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ff4700 0%,#d63500 98%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ff4700 0%,#d63500 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4700', endColorstr='#d63500',GradientType=0 ); /* IE6-9 */
+
+
+}
+#buy-now:hover {
+	text-decoration: none;
+}
+nav ul {
+
+	padding-left: 0;
+	/*background-color: blue;*/
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	/*margin-left: auto;
+	margin-right: auto;*/
+	
+}
+main {
+	width: 960px;
+	margin: 0 auto;
+}
+article header ul {
+	padding-left: 0;
+	list-style: none;
+	font-size: smaller;
+
+}
+article header li {
+	display: inline;
+	margin margin-right: 10px;
+}
+article {
+	background-color: #FFF;
+	width: 66.66%;
+	/*padding:20px;*/
+	box-sizing: border-box; /*keeps the box of the same size despit of changing the padding size*/
+    margin-top: 40px;
+    /*X axis, Y axis,blur, size, color */
+    box-shadow: 0 13px 5px -10px rgba(0, 0, 0,.2); 
+}
+
+article header img {
+	max-width: 100%; /*changing image size to the article header size*/
+
+}
+.article-content-futured {
+	padding: 0 30px; 
+	padding-bottom: 30px;
+}
+article h1 {
+	font-family: 'Crete Round', serif;
+    font-size: xx-large;
+    font-weight: 400;
+}
+article h1 a{
+  color: #333333;
+text-decoration: none;
+	}
+/*article h1 a:hover {
+	color: #777777;*/
+}
+#pinned article h1 a:hover {
+	color: #777777;
+}
+article h1 a:hover {
+	color: #FF4700;
+}
+article p {
+	color: #333333;
+}
+
+.breakout {
+	font-weight: bold;
+	color: #222222;
+	text-decoration: none;
+	display: inline-block;
+	margin: 15px 0;
+}
+article footer {
+	background-color: #fcfcfc;
+	padding: 15px 30px;
+	border-top: 1px solid #dddddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
